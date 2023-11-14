@@ -22,5 +22,11 @@ This script utilizes the Boto3 library to clean up various AWS resources, includ
    ```bash
    python cleanup_script.py
 
+## Important Note
+This script will delete all EC2 instances, S3 buckets, IAM users, and RDS instances in the specified AWS region. Ensure that you have backed up any essential data and have confirmed your intention to delete these resources.
 
+## Disclaimer
+Use this script at your own risk. The author is not responsible for any accidental deletion of critical resources. Always review and understand the script before running it in a production environment.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
